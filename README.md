@@ -1,9 +1,13 @@
 # **A Brief History of Virtualization**
 
 Course: DevOps
+
 Mod: Week 1
+
 Topic: Virtualization
+
 Amount of time: 1.5 hours
+
 Author: Thomas Fowler
 
 ## **Lesson Summary:**
