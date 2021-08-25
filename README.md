@@ -75,8 +75,9 @@ toward feature development.
 
 This was approaching the self-service the system administrators
 wanted for application teams to become more self-sufficient.
-Additionally, it allowed the system administrators to focus more
-on hardening their infrastructure and securing their networks.
+Providing more self-service capabilities allowed the system
+administrators to focus more on hardening their infrastructure and
+further securing their networks.
 
 ------------------------------------------------
 
