@@ -35,23 +35,22 @@ machine.
 
 In the past, when system administrators needed to support
 development efforts by application teams, they
-would provision hardware to support those applications. This
-was a very costly and resource intensive process and created
-a significant amount of friction when deploying the
+would provision hardware to support those applications. In order
+to provision the servers for these applications, the system
+administrator would need to enter a service ticket for the
+procurement of the machine or server, another ticket to make sure
+the machine had network access, and potentially a host of others
+including, but not limited to, firewall configuration, backup and
+recovery,software packages and dependencies, network storage, etc., etc. This was a very costly and resource intensive process and
+created a significant amount of friction when deploying the
 applications the system administrators were charged to support.
 
-In order to provision the servers for these applications, the
-system administrator would need to enter a service ticket for
-the procurement of the machine or server, another ticket to make
-sure the machine had network access, and potentially a host of
-others including, but not limited to firewall configuration,
-backup and recovery,software packages and dependencies, network
-storage, etc., etc.
+<!-- [insert figure?] -->
 
-This process was costly and unfortunately very necessary to
-support these applications. Worse still, the system
-administrators needed to isolate these servers and their
-applications from one another, further compounding the issue.
+While very costly, this process was unfortunately very necessary.
+Worse still, the system administrators needed to isolate these
+servers and their applications from one another. Even when isolation was successful, one application could bring down an entire server and
+all the other applications it hosted, further compounding the issue.
 They needed a solution that would allow for some level of
 customization when provisioning servers, while reducing or
 eliminating the overhead of installing hardware, configuring
@@ -64,12 +63,15 @@ networks, installing operating systems, etc.
 To combat these issues and to streamline the provisioning
 of infrastructure to support applications, virtualization was
 introduced as a solution. The idea was to emulate hardware in
-software to eliminate the physical ramp-up time necessary to
-provision servers/machines and allow for a catalog of virtual machine
+software to eliminate the ramp-up time necessary to provision
+physical servers/machines and allow for a catalog of virtual machine
 images from which application teams could select for their specific
 needs. These virtual machine images allowed the system administrators
-to provide multiple operating systems, baked-in software packages and
-dependencies, a limited degree of application isolation, etc.
+to support application teams with multiple operating systems,
+baked-in software packages and dependencies, a limited degree of
+application isolation, etc. This reduced the time to deployment for
+application teams and allowed them to shift more of their focus
+toward feature development.
 
 This was approaching the self-service the system administrators
 wanted for application teams to become more self-sufficient.
@@ -88,7 +90,7 @@ virtualization host.
 * Leverages the host operating system to run the virtualization
 runtime.
 * Employs the use of an application or software called a hypervisor
-to manage all instances of virtual machines running in the 
+to manage all instances of virtual machines running in the
 virtualization runtime.
 * Each virtual machine instance has its own guest operating system
 with its own configuration and dependencies.
@@ -106,7 +108,9 @@ virtual machine.
 
 ### **Lab Excercise 1**
 
-* Deploy a virtual machine using VirtualBox
+* Deploy an Ubuntu virtual machine using VirtualBox
+* Install an application that listens for requests
+* Configure the virtual machine to allow external traffic
 
 ------------------------------------------------
 
