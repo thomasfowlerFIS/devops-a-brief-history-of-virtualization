@@ -62,7 +62,7 @@ networks, installing operating systems, etc.
 
 To combat these issues and to streamline the provisioning
 of infrastructure to support applications, virtualization was
-introduced as a solution. The idea was to emulate hardware in
+introduced as a solution. The rationale was to emulate hardware in
 software to eliminate the ramp-up time necessary to provision
 physical servers/machines and allow for a catalog of virtual machine
 images from which application teams could select for their specific
