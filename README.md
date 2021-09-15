@@ -109,15 +109,3 @@ virtual machine.
 * Install applications to each virtual machine.
 * Configure applications on each virtual machine
 to communicate with the other.
-
-------------------------------------------------
-
-### **Quiz 1**
-
-* TBD
-* TBD
-* TBD
-* TBD
-* TBD
-
-------------------------------------------------
