@@ -14,9 +14,9 @@ Author: Thomas Fowler
 
 Virtualizatiion has gone through many evolutionary changes
 over the years, and with these advancements in tooling and
-strategy, virtualized machines have become a commodity in the
-world of DevOps/DevSecOps. By the end of this lesson you will
-be able to:
+strategy, virtualization and virtual machines have become a
+commodity in the world of DevOps and DevSecOps. By the end of
+this lesson you will be able to:
 
 ------------------------------------------------
 
@@ -24,8 +24,10 @@ be able to:
 
 * Explain virtualization, its history, and its importance in
 the field of DevOps/DevSecOps.
+
 * Diagram the model of virtualization using a hypervisor and
 virtual machines.
+
 * Demonstrate provisioning and deprovisioning a virtual
 machine.
 
@@ -33,9 +35,35 @@ machine.
 
 ### **A Brief History on Application Support**
 
+From the mid to late 1990's to the early 2000's, when the internet was
+first coming into the mainstream in business and software development,
+web applications became popular due to their accessability and
+interoperability with other web applications. These conditions were
+the precursors to the ubiquity of web-based APIs that software
+developers, platform engineers, and DevOps engineers use today.
+
+To deploy these web applications was very costly and time consuming.
+This was due to several factors, but the list includes but is not
+limited to the following (in no particular order):
+
+* Physical server procurement and provisioning
+
+* Network configuration and integration of the server
+
+* Securing and granting access to servers
+
+Effectively, a systems administrator or similarly functioning role,
+would need to acquire and provision a physical server. Next, the
+systems administrator would coordinate with the network administrator
+to ensure proper addition and membership to the network/LAN. The
+systems administrator would then secure access to the server, and
+finally another list of subsequent tasks were performed to enable
+the web application to be deployed.
+
 While very costly, this process was unfortunately very necessary.
 Worse still, the system administrators needed to isolate these
-servers and their applications from one another. Even when isolation was successful, one application could bring down an entire server and
+servers and their applications from one another. Even when isolation
+was successful, one application could bring down an entire server and
 all the other applications it hosted, further compounding the issue.
 They needed a solution that would allow for some level of
 customization when provisioning servers, while reducing or
