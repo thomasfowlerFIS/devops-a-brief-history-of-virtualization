@@ -33,20 +33,6 @@ machine.
 
 ### **A Brief History on Application Support**
 
-In the past, when system administrators needed to support
-development efforts by application teams, they
-would provision hardware to support those applications. In order
-to provision the servers for these applications, the system
-administrator would need to enter a service ticket for the
-procurement of the machine or server, another ticket to make sure
-the machine had network access, and potentially a host of others
-including, but not limited to, firewall configuration, backup and
-recovery,software packages and dependencies, network storage, etc., etc. This was a very costly and resource intensive process and
-created a significant amount of friction when deploying the
-applications the system administrators were charged to support.
-
-<!-- [insert figure?] -->
-
 While very costly, this process was unfortunately very necessary.
 Worse still, the system administrators needed to isolate these
 servers and their applications from one another. Even when isolation was successful, one application could bring down an entire server and
@@ -66,7 +52,9 @@ introduced as a solution. The rationale was to emulate hardware in
 software to eliminate the ramp-up time necessary to provision
 physical servers/machines and allow for a catalog of virtual machine
 images from which application teams could select for their specific
-needs. These virtual machine images allowed the system administrators
+needs.
+
+These virtual machine images allowed the system administrators
 to support application teams with multiple operating systems,
 baked-in software packages and dependencies, a limited degree of
 application isolation, etc. This reduced the time to deployment for
@@ -77,7 +65,7 @@ This was approaching the self-service the system administrators
 wanted for application teams to become more self-sufficient.
 Providing more self-service capabilities allowed the system
 administrators to focus more on hardening their infrastructure and
-further securing their networks.
+securing their networks.
 
 ------------------------------------------------
 
