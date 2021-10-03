@@ -2,9 +2,9 @@
 
 Course: DevOps
 
-Mod: Week 1
+Mod: Virtualization In-Depth with VirtualBox
 
-Topic: Virtualization
+Topic: A Brief History of Virtualization
 
 Amount of time: 1.5 hours
 
@@ -115,16 +115,3 @@ with its own configuration and dependencies.
 virtual machine.
 
 <!-- Need figure here -->
-<!-- [Insert Figure - TBD] -->
-
-------------------------------------------------
-
-### **Lab Excercise 1**
-
-* Deploy an Ubuntu virtual machine using VirtualBox
-
-* Install an application that listens for requests
-
-* Configure the virtual machine to allow external traffic
-
-------------------------------------------------
